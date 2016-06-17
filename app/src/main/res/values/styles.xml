@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--look at this: https://github.com/amlcurran/ShowcaseView/issues/159-->
+    <style name="Custom_semi_transparent_demo" parent="ShowcaseView.Light">
+        <item name="sv_backgroundColor">#663d4353</item> <!--you can customize it-->
+        <item name="sv_showcaseColor">#25467A</item> <!--you can customize it-->
+        <item name="sv_buttonText">Close</item> <!--you can customize it-->
+    </style>
+
+</resources>
